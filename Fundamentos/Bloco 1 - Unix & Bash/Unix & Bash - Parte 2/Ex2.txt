@@ -1,0 +1,11 @@
+cd unix_tests
+
+touch skill2.txt
+
+cat > skill2.txt
+Internet, Unix & Bash
+
+cat >> skills2.txt
+JS
+Flexbox
+

@@ -1,0 +1,36 @@
+mkdir unix_tests
+cd unix_tests
+--
+touch trybe.txt
+--
+cp trybe.txt trybe_backup.txt
+--
+mv trybe.txt trybe_renamed
+--
+mkdir backup 
+--
+mv trybe_backup backup
+--
+mkdir backup2
+--
+cd backup
+mv trybe_backup ../backup2
+--
+cd ..
+rmdir backup
+--
+mv backup2 backup
+--
+pwd
+--
+rmdir -rf backup
+--
+clear
+
+* Exercícios 14 e 15
+
+head -5 skills.txt
+--
+tail -4 skills.txt
+--
+rm *.txt
