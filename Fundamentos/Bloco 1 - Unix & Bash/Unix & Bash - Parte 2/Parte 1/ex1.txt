@@ -1,0 +1,34 @@
+cd unix_tests
+
+touch skill2s.txt
+cat > skill2s.txt
+Internet 
+Unix
+Bash
+
+cat >> skills2.txt
+HTML
+Functions
+Css
+JS
+Flexbox
+
+wc -l skills2.txt
+
+cp skills2.txt top_skills.txt
+
+head -3 skills2.txt > top_skills.txt | sort top_skills.txt 
+
+cat > phrases2.txt
+
+grep "br" phrases2.txt | wc -l
+
+grep -iv "br" phrases2.txt | wc -l
+
+cat >> phrases2.txt
+brazil
+japão
+
+cat phrases2.txt countries.txt >> bunch_of_things.txt 
+
+sort -o bunch_of_things.txt bunch_of_things.txt
