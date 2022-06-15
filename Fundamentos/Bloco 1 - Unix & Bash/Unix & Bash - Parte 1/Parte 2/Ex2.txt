@@ -14,3 +14,23 @@ grep -i brazil countries.txt
 
 *Segunda Parte Do Exercicio*
 
+cat > phrases.txt 
+A vida e uma caixa preta nunca saberemos o seu real significado.⁠
+Faça a pessoa que você gosta se sentir especial ao invés de só mais uma.
+Teu abraço eras confortante⁠.
+A vida é um caos aleatório,ordenada pelo tempo.
+A verdade, é que dói lembrar dela.
+
+grep -v "fox" phrases.txt
+
+wc -w phrases.txt
+
+wc -l phrases.txt
+
+touch empty.tbt empty.pdf 
+
+ls *txt
+
+ls *tbt *txt
+
+man ls
